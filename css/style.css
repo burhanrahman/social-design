@@ -1,0 +1,101 @@
+.green {
+    width: 50%;
+    height: 400px;
+    background: green;
+    margin: 5% auto 5%;
+    position: relative;
+}
+.red {
+width:200px;
+height: 200px;
+background-color: red;
+border-radius: 100%;
+position: absolute;
+left: 35%;
+top: 20%
+}
+
+.social-icons {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+
+
+
+.social-icons li {
+    list-style: none;
+    text-align: center;
+    display: inline-block
+    
+}
+
+.social-icons li a {
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    margin: 0px 15px;
+    color: #cdd1d0;
+    background: #182C61;
+    border-radius: 100%;
+}
+.social-icons li a:hover{
+    background: transparent;
+    border: 2px solid black;
+}
+.social-icons li a:focus{
+    background: transparent;
+    border: 2px solid black;
+}
+.green .fb {
+    width: 150px;
+    position: fixed;
+    top: 40%;
+    right: -100px;
+    transition: 1.5s;
+}
+.green .fb:hover{
+    right: -2px;
+    cursor: pointer;
+}
+.green .tweet {
+    width: 150px;
+    position: fixed;
+    top: 47%;
+    right: -100px;
+    transition: 1.5s;
+
+}
+.green .tweet:hover{
+    right: -2px;
+    cursor: pointer;
+}
+
+.green .insta {
+    width: 150px;
+    position: fixed;
+    top: 54%;
+    right: -102px;
+    transition: 1.5s;
+
+}
+.green .insta:hover{
+    right: -2px;
+    cursor: pointer;
+}
+
+.green .youtube {
+    width: 150px;
+    position: fixed;
+    top: 60%;
+    right: -97px;
+    transition: 1.5s;
+
+}
+.green .youtube:hover{
+    right: -2px;
+    cursor: pointer;
+}
